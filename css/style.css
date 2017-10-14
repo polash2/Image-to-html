@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab',
+    serif;
+}
+
+
+.header {
+    background-color: #1B1B1B;
+    min-height: 76px;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    color: white;
+    margin-top: 10px;
+
+}
+
+.menu-bar {
+    width: 40%;
+    float: right;
+    margin-top: 20px;
+
+}
+
+.menu-bar ul {}
+
+.menu-bar ul li {
+    float: left;
+
+}
+
+.menu-bar ul li:first-child {
+    list-style: none;
+}
+
+.menu-bar ul li a {
+    color: white;
+    padding: 30px 30px;
+    text-decoration: none;
+    transition: 2s;
+}
+
+.menu-bar ul li a:hover {
+    color: #FF675F;
+}
+
+.slider {
+    overflow: hidden;
+    min-height: 391px;
+    background-color: #2A2A2A;
+}
+
+.slider-caption {
+    text-align: center;
+}
+
+.slider-caption h1 {
+    color: white;
+    font-size: 30px;
+    margin-top: 73px;
+}
+
+.slider-caption p {
+    color: #AEAEAE;
+    font-size: 20px;
+    margin-top: 32px;
+}
+
+.slider-caption button {
+    border-radius: 5px;
+    margin-top: 45px;
+    background-color: #FF6760;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 7px 23px;
+    border: none;
+}
+
+.slider-caption p .ans-sign {
+    font-size: 25px;
+    font-weight: bold;
+    color: #FF6760;
+}
+
+.content {
+    overflow: hidden;
+    min-height: 404px;
+    background-color: white;
+}
+.content_warpper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.single-icon {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 1.8% 1.5%;
+}
+
+.footer {
+    min-height: 248px;
+    background-color: #2A2A2A;
+    overflow: hidden;
+}
+
+.footer-content {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-content h3 {
+    margin-top:50px;
+    color: white;
+    font-size: 30px;
+
+}
+
+.footer-content p {
+    color:white;
+    margin-top: 25px;
+}
+
+.social-icon {
+    margin-top: 20px;
+
+    margin-bottom: 15px;
+}
+
+.social-icon .circle-twitter {
+    color: white;
+    background-color: #63B1D6;
+    padding: 7px 8px;
+    border-radius:15px;
+    margin-right: 5px;
+}
+
+.social-icon .circle-facebook {
+    color: white;
+    background-color: #406BC9;
+    padding: 7px 10px;
+    border-radius:15px;
+}
